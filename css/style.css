@@ -52,7 +52,8 @@ nav {
   nav img {
     vertical-align: middle;
     margin-bottom: 1rem;
-    margin-top: 0.5rem; }
+    margin-top: 0.5rem;
+    max-height: 50px; }
   nav ul {
     margin-top: 0.5rem; }
 
@@ -68,7 +69,8 @@ nav {
   float: left;
   padding: 8px;
   margin-left: 16px;
-  margin-top: 8px; }
+  margin-top: 8px;
+  max-height: 50%; }
 
 nav ul {
   float: right; }
