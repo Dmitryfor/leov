@@ -1,9 +1,36 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
 html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'gothic regular';
+  src: url(../fonts/gr.ttf); }
+
+@font-face {
+  font-family: 'gothic bold';
+  src: url(../fonts/gb.ttf); }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-family: 'gothic regular', serif;
   font-size: 10px; }
-  html h1 {
-    font-weight: bold; }
-  html a {
-    font-weight: bold; }
+  html h1, html h2, html h3, html h4, html h5, html h6, html a {
+    font-family: 'gothic bold'; }
   @media (min-width: 768px) {
     html {
       font-size: 16px; } }
