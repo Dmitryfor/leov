@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'gothic regular';
+    src: url(../fonts/gr.ttf);
+}
+
+@font-face {
+    font-family: 'gothic bold';
+    src: url(../fonts/gb.ttf);
+}
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
+html {
+	h1,h2,h3,h4,h5,h6,a {
+		font-family: 'gothic bold';
+	}
+	
+	font-family: 'gothic regular', serif;
+
+	font-size: 10px;
+	  @media (min-width: 768px) {
+	    font-size: 16px;
+	  }
+
+	  @media (min-width: 1600px) {
+	    font-size: 18px;
+	  }
+}
+
+
+// heading's clasess 
